@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: hsl(216, 12%, 8%);
+}
+
+
+main {
+    margin: 50% 0%;
+    padding: 1rem;
+    background: hsl(213, 19%, 18%);
+    border-radius: 16px;
+}
+
+img {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+}
+
+.ratings-container {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating {
+    list-style: none;
+    background: hsl(216, 12%, 54%);
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    width: 15%;
+    padding: 10px;
+    border-radius: 50%;
+}
