@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Please leave a rating!</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <img src="images/icon-star.svg" alt="star icon">
-        <h2>How did we do?</h2>
-        <h4>Please let us know how we did with your support request.
-            All feedback is appreciated to help us improve our offering!</h4>
-        <ul class="ratings-container">
-            <li class="rating">1</li>
-            <li class="rating">2</li>
-            <li class="rating">3</li>
-            <li class="rating">4</li>
-            <li class="rating">5</li>
-        </ul>
-        <button>submit</button>
+      <img src="images/icon-star.svg" class="star-image" alt="star icon" />
+      <h2 class="rating-question">How did we do?</h2>
+      <h4 class="call-to-action">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </h4>
+      <ul class="ratings-container">
+        <li class="rating">1</li>
+        <li class="rating">2</li>
+        <li class="rating">3</li>
+        <li class="rating">4</li>
+        <li class="rating">5</li>
+      </ul>
+      <button class="submit-button">SUBMIT</button>
     </main>
-</body>
+    <section class="rating-finalized">
+      <img
+        src="images/illustration-thank-you.svg"
+        class="rating-finalized-image"
+        alt=""
+      />
+      <h4 class="rating-summary-message">You selected 4 out of 5</h4>
+      <h1 class="rating-thanks-message">Thank You</h1>
+      <h4 class="rating-appreciation-message">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </h4>
+    </section>
+  </body>
 </html>
